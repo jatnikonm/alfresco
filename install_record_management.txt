@@ -1,0 +1,27 @@
+Install Record Management in Alfresco
+
+1. Stop Alfresco Service
+
+2. Delete folder "alfresco" dan "share" yang ada pada
+	C:\alfresco-community\tomcat\webapps
+
+3. copy-paste file alfresco-rm-server-2.3.c.amp
+	ke -> C:\alfresco-community\amps
+
+4. copy-paste file alfresco-rm-share-2.3.c.amp
+	ke --> C:\alfresco-community\amps_share
+
+5. Masuk cmd --> cd ke C:\alfresco-community\bin
+
+	jalankan perintah:
+
+	a. java -jar alfresco-mmt.jar install ..\amps\alfresco-rm-server-2.3.c.amp ..\tomcat\webapps\alfresco.war  
+
+
+	b. java -jar alfresco-mmt.jar install ..\amps_share\alfresco-rm-share-2.3.c.amp ..\tomcat\webapps\share.war
+
+6. start service alfresco
+
+7. Open http://localhost:8080/share/
+
+8. Tunggu beberapa saat hingga mendidih dan berwarna kecoklatan
