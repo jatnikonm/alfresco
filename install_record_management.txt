@@ -24,3 +24,4 @@ Install Record Management in Alfresco
 
 7. Open http://localhost:8080/share/
 
+8. Tunggu beberapa saat hingga mendidih dan berwarna kecoklatan
