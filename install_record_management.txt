@@ -1,5 +1,8 @@
 Install Record Management in Alfresco
 
+Periksa apakah sudah terinstall java sdk 
+jika belum install java sdk
+
 1. Stop Alfresco Service
 
 2. Delete folder "alfresco" dan "share" yang ada pada
